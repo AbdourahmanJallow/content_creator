@@ -1,0 +1,20 @@
+trend_research_task:
+  description: >
+    Research the latest {topic} and provide detailed explainations.
+  expected_output: >
+    A summary of the top 10 latest {topic}.
+  agent: trend_researcher
+
+concept_analysis_task:
+  description: >
+    Analyze the new {topic}.
+  expected_output: >
+    A detailed analysis of the top 5 new {topic}.
+  agent: concept_analyst
+
+content_creation_task:
+  description: >
+    Create content based on the {topic}
+  expected_output: >
+    An article or blog post highlighting the latest trends and technologies in backend engineering.
+  agent: content_creator
